@@ -1,0 +1,70 @@
+#loading
+{
+    font-family: monospace;
+    width: 0%;
+    animation-delay: 10s;
+    white-space: nowrap;
+    overflow: hidden; 
+    color: rgb(90, 209, 79);
+    animation: typing_and_end 4s steps(20,  end);
+}
+#title
+{
+    margin: 0 auto;
+    text-align: center;
+    font-family: monospace;
+    white-space: pre;
+    position: relative;
+    color:"black";
+    font-size: 140%;
+    line-height: 8px;
+    overflow: hidden;
+    animation: typing 6s steps(50, end) 4s;
+    animation-fill-mode: forwards;
+
+}
+div.main-content
+{
+    margin: 0 auto;
+    background-color:black;
+    position: relative;
+    margin-top: 1cm;
+    opacity: 0;
+    height: 570px;
+    width: 620px;
+    animation: neuron_animation 8s steps(20, end) 4s;
+    overflow: hidden; 
+    animation-fill-mode: forwards;
+}
+#typed
+{
+    vertical-align: bottom;
+    height: 25px;
+    font-size: 100%;
+    text-align: left;
+    overflow: hidden; 
+    letter-spacing: .15em;
+    animation: 
+    typing 6s steps(100, end) 4s;
+}
+#neuron:hover  {animation: neuron_hover_animation 1.5s steps(20, end); animation-iteration-count: infinite; }
+
+@keyframes typing {
+    from { width: 0; text-align: "center";}
+    to { width: 100%; color: rgb(90, 209, 79)}
+  }
+  @keyframes typing_and_end {
+        0% { width: 0%; }
+        99% { width: 100%; }
+        100% { width: 0% }
+  }
+@keyframes neuron_animation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    }
+@keyframes neuron_hover_animation {
+    0%   {opacity: 1}
+    50%  {opacity: 0.5;}
+    100%  {opacity: 1;}
+}
+
