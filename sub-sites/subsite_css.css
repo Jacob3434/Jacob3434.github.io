@@ -43,12 +43,18 @@ div.main-content {
 }
 #typed {
     line-height: 20px;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 20px;
 }
 #line {
-    animation-fill-mode: forwards;
+   
     width: 0%; 
+    animation: typing 8s steps(20, end) 4s;
+    animation-fill-mode: forwards;
 }
-#neuron:hover  {animation: neuron_hover_animation 1.5s steps(20, end); animation-iteration-count: infinite; }
+#return_button:hover  {animation: neuron_hover_animation 1.5s steps(20, end); animation-iteration-count: infinite; }
 
 @keyframes typing {
     from { width: 0; text-align: "center";}
