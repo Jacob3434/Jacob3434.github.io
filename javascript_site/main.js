@@ -4,7 +4,7 @@ function neuron_pointed(x, i)
         var text=""
         switch (i) {
             case 0: text = ">> Wstęp"; break;
-            case 1: text = "agds"; break;
+            case 1: text = ">> Czym Jest SI?"; break;
             case 2: text = "hfvs"; break;
             case 3: text = "bujs"; break;
             case 4: text = "vhhhs";  break;
