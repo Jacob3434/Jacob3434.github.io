@@ -26,7 +26,7 @@ div.main-content {
     margin: 5%;
     background-color:black;
     position: absolute;
-    margin-top: 1cm;
+    margin-top: 100px;
     opacity: 0;
     height: 570px;
     width: 620px;
@@ -37,14 +37,14 @@ div.main-content {
 #return_button {
     text-align: left;
     overflow: hidden; 
-    animation: neuron_animation 8s steps(20, end) 4s;
     opacity: 0;
+    animation: neuron_animation 8s steps(20, end) 4s;
     animation-fill-mode: forwards;
 }
 #typed {
     line-height: 20px;
     text-align: left;
-    margin-left: 7.5%;
+    margin-left: 10%;
     margin-right: 10%;
     line-height: 20px;
 }
