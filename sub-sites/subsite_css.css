@@ -35,30 +35,43 @@ div.main-content {
     animation-fill-mode: forwards;
 }
 #return_button {
-    text-align: left;
     overflow: hidden; 
     opacity: 0;
     animation: neuron_animation 8s steps(20, end) 4s;
     animation-fill-mode: forwards;
+    float: left;
+    width: 50%;
+    text-align: right;
 }
 #typed {
+
+    position: relative;
     line-height: 20px;
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    line-height: 20px;
+    text-align: justify;
+    margin: 5%;
+    width: 100%;
+    white-space: pre-wrap;
 }
 #line {
-   
     width: 0%; 
     animation: typing 8s steps(20, end) 4s;
     animation-fill-mode: forwards;
+}
+.link {
+    color: rgb(90, 209, 79);
+    text-decoration: none;
+    
 }
 #return_button:hover  {animation: neuron_hover_animation 1.5s steps(20, end); animation-iteration-count: infinite; }
 
 @keyframes typing {
     from { width: 0; text-align: "center";}
-    to { width: 100%; color: rgb(90, 209, 79)}
+    to { width: 100%; color: rgb(90, 209, 79);}
+  }
+
+  @keyframes typing_for_text {
+    from { width: 0; text-align: "center";}
+    to { width: 100%; color: rgb(90, 209, 79); }
   }
   @keyframes typing_and_end {
         0% { width: 0%; }

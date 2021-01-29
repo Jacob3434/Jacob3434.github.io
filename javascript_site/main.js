@@ -25,3 +25,15 @@ function neuron_pointed(x, i)
         fieldNameElement.animate([{width: "0%"},{width: "100%"}], {duration: 1000});
         console.log("hello")
     }
+
+    function link_pointed(id) {
+        var fieldNameElement = document.getElementById(id);
+        fieldNameElement.style.color = "black";
+        fieldNameElement.style.backgroundColor = "green";
+    }
+    function link_unpointed(id) {
+        var fieldNameElement = document.getElementById(id);
+        fieldNameElement.style.color = "rgb(90, 209, 79)";
+        fieldNameElement.style.backgroundColor = "black "
+    }
+    
