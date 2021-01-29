@@ -5,8 +5,8 @@ function neuron_pointed(x, i)
         switch (i) {
             case 0: text = ">> Wstęp"; break;
             case 1: text = ">> Czym Jest SI?"; break;
-            case 2: text = "hfvs"; break;
-            case 3: text = "bujs"; break;
+            case 2: text = ">> Ścieżki rozwoju S.I - GAN"; break;
+            case 3: text = ">> Ścieżki rozwoju S.I - Transformator"; break;
             case 4: text = "vhhhs";  break;
             case 5: text = "djjj"; break;
             case 6: text = "jfjfj"; break;
