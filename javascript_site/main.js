@@ -5,14 +5,14 @@ function neuron_pointed(x, i)
         switch (i) {
             case 0: text = ">> Wstęp"; break;
             case 1: text = ">> Czym Jest SI?"; break;
-            case 2: text = ">> Ścieżki rozwoju S.I - GAN"; break;
-            case 3: text = ">> Ścieżki rozwoju S.I - Transformator"; break;
-            case 4: text = "vhhhs";  break;
-            case 5: text = "djjj"; break;
-            case 6: text = "jfjfj"; break;
-            case 7: text = "hhghg"; break;
-            case 8: text = "hhghg"; break;
-            case 9: text = "akmsh";  break;
+            case 2: text = ">> Ścieżki rozwoju SI: GAN"; break;
+            case 3: text = ">> Ścieżki rozwoju SI: Transformator"; break;
+            case 4: text = ">> Ścieżki rozwoju SI: Uczenie przez wzmacnianie";  break;
+            case 5: text = ">> SI w naszym życiu: Systemy rekomendacji"; break;
+            case 6: text = ">> SI w naszym życiu: SI w walce z Covid-19"; break;
+            case 7: text = ">> SI w naszym życiu: Autonomiczne pojazdy na drogach"; break;
+            case 8: text = ">> Zagrożenia SI"; break;
+            case 9: text = ">> Zakończenie";  break;
         }
         fieldNameElement.innerHTML = text;
         fieldNameElement.animate([{width: "0%"},{width: "100%"}], {duration: 1000});
