@@ -36,7 +36,7 @@ div.main-content {
 }
 #return_button {
     overflow: hidden; 
-    opacity: 0;
+    opacity: 1;
     animation: neuron_animation 8s steps(20, end) 4s;
     animation-fill-mode: forwards;
     float: left;
@@ -44,6 +44,7 @@ div.main-content {
     text-align: right;
 }
 #typed {
+    
     font-size: 120%;
     position: relative;
     line-height: 20px;
@@ -52,6 +53,7 @@ div.main-content {
     margin-right: 10%;
     width: 90%;
     white-space: pre-wrap;
+    animation-fill-mode: forwards;
 }
 #line {
     width: 0%; 
@@ -59,9 +61,13 @@ div.main-content {
     animation-fill-mode: forwards;
 }
 .link {
+    
     color: rgb(90, 209, 79);
     text-decoration: none;
     font-style: italic;
+    opacity: 0;
+    animation: neuron_animation 8s steps(20, end) 4s;
+    animation-fill-mode: forwards;
 }
 #return_button:hover  {animation: neuron_hover_animation 1.5s steps(20, end); animation-iteration-count: infinite; }
 
