@@ -61,7 +61,7 @@ div.main-content {
     animation-fill-mode: forwards;
 }
 .link {
-    
+    font-weight: bold;
     color: rgb(90, 209, 79);
     text-decoration: none;
     font-style: italic;
